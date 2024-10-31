@@ -4,8 +4,6 @@ import consultarIdService from '../service/Servico1/consultarIdService.js';
 import excluirService from '../service/Servico1/excluirService.js';
 import inserirService from '../service/Servico1/inserirService.js';
 
-import { autenticar } from "../utils/jwt.js";
-
 import { Router } from "express";
 
 const endpoints = Router();
