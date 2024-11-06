@@ -42,3 +42,12 @@ select * from tb_cliente;
 drop table tb_servico;
 drop table tb_cliente;
 drop database oreasecadb;
+
+
+// .env
+PORT=3010
+
+MYSQL_HOST=localhost
+MYSQL_USER=root
+MYSQL_PWD=
+MYSQL_DB=OreaSecaDB
