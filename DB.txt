@@ -51,3 +51,6 @@ MYSQL_HOST=localhost
 MYSQL_USER=root
 MYSQL_PWD=
 MYSQL_DB=OreaSecaDB
+
+
+IP:20.83.237.168
