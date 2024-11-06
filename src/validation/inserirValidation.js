@@ -1,4 +1,1 @@
-
-export default function validarInsercao(pessoa) {
-}
-
+export default function validarInsercao(pessoa) {}
