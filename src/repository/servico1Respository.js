@@ -53,8 +53,7 @@ export async function alterar(id, pessoa) {
   }
   const comando = `
         UPDATE tb_servico
-        SET  
-            fk_id_cli = ?, 
+        SET   
             ds_endereco = ?, 
             vlr_servico = ?, 
             dt_estimada = ?, 
@@ -63,7 +62,6 @@ export async function alterar(id, pessoa) {
     `;
 
   let [info] = await con.query(comando, [
-    pessoa.fk_id_cli,
     pessoa.ds_endereco,
     pessoa.vlr_servico,
     pessoa.dt_estimada,
